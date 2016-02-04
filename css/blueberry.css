@@ -1,0 +1,96 @@
+/*
+ * jQuery Blueberry Slider v0.4 BETA
+ * http://marktyrrell.com/labs/blueberry/
+ *
+ * Copyright (C) 2011, Mark Tyrrell <me@marktyrrell.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+.blueberry { margin: 0 auto; position:relative; }
+.blueberry .slides {
+	display: block;
+	position: relative !important;
+	overflow: hidden;
+}
+
+.blueberry ul.slides {
+	list-style-type: none !important;
+    margin:0px !important;
+    padding-left: 0px !important;
+}
+
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	margin-left: 0px !important;
+    text-align: center;
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.blueberry .slides li img#fotos_slider_cabezote {
+	display: block !important;
+	width: 100% !important;
+	max-width: 100% !important;
+	margin:0px !important;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	width:100%;
+	height:auto;
+	text-align: center;
+	background-color:transparent;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:0px auto;
+}
+
+ul.pager {
+	list-style-type: disc;
+    margin-left: 0px;
+	padding-left:0px;
+}
+
+.blueberry .pager li { display: inline-block; height:auto; margin-left:9px !important;}
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 12px;
+	width:12px;
+}
+.blueberry .pager li a {
+	padding: 0px 5px;
+	-webkit-border-radius: 100%;
+   -moz-border-radius:100%;
+	border-radius: 100%;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #abdcf3;
+	text-indent: -9999px;
+	-webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+	border-radius: 100%;
+	
+}
+.blueberry .pager li.active a span { background: #5dc4f3; border:2px solid #FFF;}

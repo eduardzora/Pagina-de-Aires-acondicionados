@@ -1,0 +1,68 @@
+/* CSS Document */
+
+/***********************************************/
+/* Menu dinamico            */
+/***********************************************/
+
+/**************MENU JQUERY*****************/
+
+ul#menu {
+	font:18px/1 'Raleway', sans-serif;
+	width: 100%;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+/* OJO MARGIN LEFT ES EL QUE ME DA LA SANGRIA AL ITEM */
+ul#menu ul {
+	width: 100%;
+	text-align: left;
+	padding: 0px;
+	margin:0px;
+
+}
+
+ul#menu a {
+  display: block;
+  text-decoration: none;
+  
+}
+
+ul#menu li {
+	margin-left:10px;
+	margin-right:20px;
+	list-style-type: none;
+	list-style-image:none;
+	border-bottom:1px solid rgba(237,236,236,0.7);
+
+}
+/************ Cambiar los link que espanden o denominados principales tanto fondo como color de letra y letra **********************/
+ul#menu li a {
+	color: #9f9f9f;
+	padding-top:5px;
+	padding-right: 0px;
+	/*padding-left: 1.5em;*/
+    padding-left:0px;
+	height:38px;
+}
+
+ul#menu li a:hover {
+	color:#B20062;
+}
+
+/************ Cambiar los link anidados tanto fondo como letras **********************/
+ul#menu li ul li a {
+	margin-left:5px;
+	margin:0px;
+	color: #B30E2D;
+}
+/************ Cambiar los link Hovers anidados tanto fondo como letras **********************/
+ul#menu li ul li a:hover {
+	color:#caa557;
+}
+
+.code { border: 1px solid #ccc; list-style-type: decimal-leading-zero; padding: 5px; margin: 0; }
+.code code { display: block; padding: 3px; margin-bottom: 0; }
+.code li { background: #ddd; border: 1px solid #ccc; margin: 0 0 2px 2.2em; }
+.indent1 { padding-left: 1em; }
+.indent2 { padding-left: 2em; }
